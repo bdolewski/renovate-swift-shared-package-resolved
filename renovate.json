@@ -1,0 +1,12 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "packageRules": [
+    {
+      "description": "Put both Package.swift updates in one branch, so they share one Package.resolved",
+      "matchManagers": ["swift"],
+      "groupName": "swift packages",
+      "separateMajorMinor": false
+    }
+  ]
+}
