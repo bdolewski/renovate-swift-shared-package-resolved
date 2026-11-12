@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
   name: "App",
   dependencies: [
-    .package(url: "https://github.com/apple/swift-argument-parser.git", exact: "1.2.0"),
+    .package(url: "https://github.com/apple/swift-argument-parser.git", exact: "1.8.2"),
   ],
   targets: [
     .executableTarget(
